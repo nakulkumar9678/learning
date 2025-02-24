@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="/action" id="container">
+    <div class="header">
+        <h1>Health Survey form</h1>
+        <br>
+        <p>Thank you for participating in our Health and Wellness Survey!
+        Your insights are incredibly valuable as we strive to enhance the quality 
+        of healthcare services and promote healthier lifestyles in our community. 
+        This survey aims to gather comprehensive data on various aspects of health,
+        including physical activity, dietary habits, mental well-being, and access to healthcare resources.</p>
+        <br>
+     </div>
+     <div class="form-control">
+        <div class="personal">
+            <!---name-->
+        <label for="info">Enter your Name:</label>
+        <input id="info" placeholder="Enter your name" name="full">
+        <!---email-->
+        <label for="info">Enter your Email:</label>
+        <input type="email" id="info" placeholder="xyz@email.com" name="mail">
+    </div>
+     </div>
+    <br>
+    <div class="form-control">
+        <!----contact-->
+        <div class="contact">
+        <label for="mobile">Contact:</label>
+        <select class="option">
+            <option id="mobile">Select your country</option>
+            <option id="mobile">India</option>
+            <option id="mobile">Usa</option>
+            <option id="mobile">France</option>
+            <option id="mobile">China</option>
+            <option id="mobile">Australia</option>
+        </select>
+        <input id="mobile" placeholder="1234567890"  name="mobile">
+        <!------gender---->
+        <label for="sex">Select Your Gender:</label>
+        <select id="option">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other's</option>
+        </select><br><br>
+        <!---maritel status-->
+        <label for="status">Maritiel Status:</label>
+        <input type="radio" id="status" value="status" name="maried">
+        <label>Maried</label>
+        <input type="radio" id="status" value="status"  name="maried">
+        <label>Unmeried</label>
+    </div>
+    <br>
+    <br>
+    <div class="form-control">
+        <label for="address">Coresponding Address:</label>
+        <br><br>
+        <input id="address" placeholder="H.No">
+        <input id="address" placeholder="Street/Tower/Flat no." name="add">
+        <input id="address" placeholder="District" name="add">
+        <input id="address" placeholder="Pincode" name="add">
+        <input id="address" placeholder="State" name="add">
+    </div>
+    <br>
+    <div class="form-control">
+        <caption>Have you attended any of the sports on offer below?</caption>
+        <br><br>
+        <table border="white">
+            <tr>
+                <td></td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Not regularly</td>
+            </tr>
+            <!--running-->
+            <tr>
+                <td>Running</td>
+                <td>
+                    <input type="radio" name="run">
+                </td>
+                <td>
+                    <input type="radio" name="run">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="run">
+                </td>
+            </tr>
+            <!--Swiming-->
+            <tr>
+                <td>Swiming</td>
+                <td>
+                    <input type="radio" name="swm">
+                </td>
+                <td>
+                    <input type="radio" name="swm">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="swm">
+                </td>
+            </tr>
+            <!----Riding a bike-->
+            <tr><td>Riding a bike</td>
+                <td>
+                    <input type="radio" name="ride">
+                </td>
+                <td>
+                    <input type="radio" name="ride">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="ride">
+                </td>
+            </tr>
+            <!--gym-->
+            <tr>
+                <td>Gym</td>
+                <td>
+                    <input type="radio" name="exer">
+                </td>
+                <td>
+                    <input type="radio" name="exr">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="exr">
+                </td>
+            </tr>
+            <!----martial arts-->
+            <tr>
+                <td>Martial arts</td>
+                <td>
+                    <input type="radio" name="mar">
+                </td>
+                <td>
+                    <input type="radio" name="mar">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="mar">
+                </td>
+            </tr>
+            <!-----yoga-->
+            <tr>
+                <td>Yoga</td>
+                <td>
+                    <input type="radio" name="yog">
+                </td>
+                <td>
+                    <input type="radio" name="yog">
+                </td>
+                <td type="radio">
+                    <input type="radio" name="yog">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="form-control">
+        <label for="smoke">Do you smoke Cigrates?</label><br>
+        <div class="select">
+        <input type="radio" id="smoke" placeholder="Yes" name="smoke">
+        <label for="smoke">Yes</label>
+    </div>
+    <div class="select">
+        <input type="radio" id="smoke" placeholder="no" name="smoke">
+        <label for="smoke">No</label>
+    </div>
+    </div>
+    <br>
+    <div class="form-control">
+        <label  for="drink">Do you drink alcohole?</label><br>
+        <div class="select">
+        <input type="radio" id="smoke" placeholder="Yes" name="drink">
+        <label for="smoke">Yes</label>
+    </div>
+    <div class="select">
+        <input type="radio" id="smoke" placeholder="no" name="drink">
+        <label for="smoke">No</label>
+    </div>
+    </div>
+    <br>
+    <div class="form-control">
+        <label for="fit">What is your current level of fitnes??</label><br><br>
+        <div class="select">
+        <input type="radio" id="fit" name="fit">
+        <label>Perfect</label></div><br>
+        <div class="select">
+        <input type="radio" id="smoke" name="fit">
+        <label>good</label></div><br>
+        <div class="select">
+        <input type="radio" id="smoke" name="fit">
+        <label>Average</label></div><br>
+        <div class="select">
+        <input type="radio" id="smoke" name="fit">
+        <label>Poor</label></div><br>
+    </div>
+    <br>
+    <div class="form-control">
+    <label for="feedback">Write your feedback:</label><br><br>
+    <textarea id="feedback" placeholder="Write your feedback here" cols="60" rows="5"></textarea>
+    </div>
+    <br>
+    <div class="form-control">
+        <input id="trc" type="checkbox">
+        <label for="trc">The information provided in this survey will be used for research purposes 
+            to improve healthcare services and promote healthier lifestyles. The data will be analyzed 
+            to identify trends, needs, and areas for improvement within the community.</label>
+    </div>
+    <br>
+    <div class="form-control">
+        <button id="click" type="action">Submit</button>
+        <button id="click" type="reset ">Clear</button>
+    </div>
+    <br>
+   </form>
+</div>
+</body>
+</html>

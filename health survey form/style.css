@@ -1,0 +1,83 @@
+body{
+    background-color: #D37676;
+}
+#container{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    color: #578FCA;
+    background-color: #D1F8EF;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.form-control{
+    margin-left: 2%;
+    font-size: 1.25rem;
+}
+p{
+    padding: 2%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+#info{
+    width: 25%;
+    height: 30px;
+}
+input{
+    color: #3674B5;
+    background-color:#D1F8EF;
+    border-color:#3674B5 ;
+}
+.personal{
+    margin-left: 2%;
+}
+.contact{
+    margin-left: 2%;
+}
+.option{
+    width: 20%;
+    height: 32px;
+    color: #D1F8EF ;
+    background-color: #3674B5;
+    border-color:#D1F8EF ;
+}
+#option{
+    width: 8%;
+    height: 32px;
+    color: #D1F8EF ;
+    background-color: #3674B5;
+    border-color:#D1F8EF ;
+}
+#mobile{
+    width: 20%;
+    height: 30px;
+}
+#address{
+    width: 30%;
+    height: 30px;
+   margin-bottom: 20px;
+}
+table{
+    height: 300px;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #3674B5;
+}
+.select{
+    border: 2px solid #3674B5;
+    height: 50px;
+    width: 80%;
+    border-radius: 30%;
+    display: inline;
+}
+textarea{
+    height: 100px;
+    width: 90%;
+}
+#click{
+    height: 30px;
+    width: 100px;
+    padding: 2px solid black;
+}
