@@ -1,0 +1,149 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    background-color: #f1faee;
+}
+nav a{
+   display:inline-block ;
+   margin-right: 200px;
+   text-decoration: none;
+   color: #457b9d;
+   font-weight: bolder;
+   font-size: 1.50rem;
+}
+.hero-sec{
+    height: 700px;
+    width: 100%;
+}
+.img{
+    height: 700px;
+    width: 100%;
+    background-image: url("filter-bg.jpg");
+    background-size: cover;
+}
+#intro{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    line-height: 0px;
+}
+h1{
+    font-size: 5rem;
+}
+p{
+    font-size: 3rem;
+    line-height: 50px;
+}
+button{
+    font-size: 2rem;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    position: absolute;
+    top: 250px;
+    left: 20rem;
+}
+button:hover{
+    box-shadow: 2px 5px 10px black;
+    transition: 2s;
+}
+#profile{
+    position: absolute;
+    top: 20px;
+    left: 60rem;
+    height: 400px;
+    width: 300px;
+    border-top: 8px double black;
+    border-left: 8px double black;  
+}
+#profile:hover{
+    border-radius: 50%;
+    transition: 5s 1.5s ease-in-out;
+}
+
+.pic{
+    background-image: url("img2.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 300px;
+}
+.pic:hover{
+    border-radius: 50%;
+    transition: 5s 1.5s ease-in-out;
+    background-image:url("img1.jpg");
+}
+#abt-sec{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#abt-sec h1{
+
+}
+#box{
+    box-shadow: 2px 5px 10px black;
+}
+#box:hover{
+    box-shadow: 5px 10px 15px black;
+    transition: 0.5s;
+}
+.education{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+}
+.education h2{
+    font-size: 1.75rem;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.education h4{
+    margin-left: 10px;
+}
+.education p,
+.education span{
+    font-size:1rem;
+    line-height: 0;
+    margin-left: 10px;
+}
+.skills{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+}
+.skills h2{
+    font-size: 1.75rem;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.skills h4{
+    line-height: 2px;
+}
+ul,
+ol{
+    list-style-type: none;
+}
+.hobby{
+    height: 450px;
+    width: 300px;
+    border: 2px solid black;
+}
+.slide-container{
+    width: 70%;
+    height: 450px;
+    border: 2px solid black;
+    margin-left: 15%;
+}
+#slide{
+    width: 100%;
+    height: 400px;
+    background-image: url("R.jpeg");
+    background-size: cover;
+}

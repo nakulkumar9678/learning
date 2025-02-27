@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #00B7C2;
+    color:#ECFEFF;
+    font-size: 1.25rem;
+    box-shadow: 2px 5px 10px black;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#menu-icon{
+    display:flex;
+    align-items: center;
+}
+#menu-icon p{
+    margin-left: 10px;
+}
+.search-opt{
+    display: flex;
+    height: 40px;
+    width: 700px;
+}
+#search{
+    height: 40px;
+    width:70%; 
+    border-color: 2px solid #ECFEFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search-icon{
+    height: 22px;
+    width: 22px;
+    padding: 8px;
+    font-size: 20px;
+    border: 1.5px solid #ECFEFF;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+a{
+    text-decoration: none;  
+    color:#ECFEFF;
+    margin-inline-start: 30px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #00B7C2;
+    font-weight: bold;
+}
+#button1:hover,
+#button2:hover{
+    box-shadow: 2px 5px 10px black;
+    transition: 2s;
+}
